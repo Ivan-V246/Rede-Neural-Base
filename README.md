@@ -32,6 +32,7 @@ Com python instalado:
     git clone https://github.com/Ivan-V246/Rede-Neural-Base.git
     cd Rede-Neural-Base/
     pip install -r requirements
+    cd src/
     python Gera_Dados.py
     python RN.py
 ```
