@@ -29,5 +29,9 @@ O projeto é dividido em três arquivos principais:
 ## Como testar
 Com python instalado:
 ```bash
-
+    git clone https://github.com/Ivan-V246/Rede-Neural-Base.git
+    cd Rede-Neural-Base/
+    pip install -r requirements
+    python Gera_Dados.py
+    python IA.py
 ```
