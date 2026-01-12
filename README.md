@@ -33,5 +33,7 @@ Com python instalado:
     cd Rede-Neural-Base/
     pip install -r requirements
     python Gera_Dados.py
-    python IA.py
+    python RN.py
 ```
+
+O programa RN.py irá instanciar a classe Rede_Neural, com os parâmetros definidos pelo usuário, e apresentar as **saídas esperadas** e a **saídas do modelo** para cada input do conjunto de treino, assim como também a margem de erro total daquela versão do modelo. 
