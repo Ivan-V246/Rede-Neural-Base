@@ -37,4 +37,6 @@ Com python instalado:
     python RN.py
 ```
 
-O programa RN.py irá instanciar a classe Rede_Neural, com os parâmetros definidos pelo usuário, e apresentar as **saídas esperadas** e a **saídas do modelo** para cada input do conjunto de treino, assim como também a margem de erro total daquela versão do modelo. 
+O programa RN.py irá instanciar a classe Rede_Neural, com os parâmetros definidos pelo usuário, e apresentar as **saídas esperadas** e a **saídas do modelo** para cada input do conjunto de treino, assim como também a margem de erro total daquela versão do modelo.
+
+ **OBS: Por padrão a rede e o gerador de dados estão configurados para treinar o aprendizado da expressão lógica **((A and B) or C)**, então a Primeira Camada deve possuir 3 Neurônios e a Última deve possuir 1 para funcionamento correto, mas isso é facilmente ajustável para treinamento com outros objetivos e estruturas.**
