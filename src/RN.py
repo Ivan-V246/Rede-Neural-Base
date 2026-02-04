@@ -18,12 +18,14 @@ with open("Dados.txt", "r") as data:
 layers = int(input("Insira a quantidade de camadas: (Mínima de três) \n"))
 print()
 
-camadas = []
-for i in range (layers):
-    a = int(input(f"Quantidade de neurônios da camada {i+1}: "))
-    camadas.append(a)
-print()
+camadas = [] 
+camadas.append(int(input("Quantidade de neurônios da primeira camada (Entrada): ")))
 
+a = int(input("Quantidade de neurônios da camadas intermediárias: "))
+for i in range(layers-2):
+    camadas.append(a)
+    
+camadas.append(int(input("Quantidade de neurônios da última camada (Saída): ")))
 
 taxa = float(input("Insira a taxa de aprendizado requerida: \n"))
 treino = int(input("Insira a quantidade de rounds de treino: \n"))

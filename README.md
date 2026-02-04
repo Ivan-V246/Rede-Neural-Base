@@ -16,7 +16,7 @@ O projeto é dividido em três arquivos principais:
 
 - **Gera_Dados.py** - Implementa um gerador de dataset para treinamento da Rede Neural, armazenando no formato **Entrada | Saída** no arquivo **Dados.txt**;
 
-- **IA.py** - Permite ao usúario escolher os HiperParâmetros de sua escolha pra Rede Neural, como **Quantidade de Camadas**, **Neurônios para cada camada**, **Taxa de Aprendizado** e **Rounds de treino por época**.
+- **RN.py** - Permite ao usúario escolher os HiperParâmetros de sua escolha pra Rede Neural, como **Quantidade de Camadas**, **Neurônios para cada camada**, **Taxa de Aprendizado** e **Rounds de treino por época**.
 
 ---
 

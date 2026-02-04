@@ -5,7 +5,7 @@ def sigmoid(z): #Z é um vetor
 
 def sigmoid_prime(z): #Z é um vetor
     a = sigmoid(z)
-    return a * (1-a) #FDerivada da função de Sigmoid, usada no cálculo das gradientes
+    return a * (1-a) #Derivada da função de Sigmoid, usada no cálculo das gradientes
 
 
 class Rede_Neural(object):
